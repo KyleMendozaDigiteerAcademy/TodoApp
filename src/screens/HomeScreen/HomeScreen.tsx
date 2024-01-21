@@ -22,7 +22,10 @@ export const HomeScreen = () => {
 };
 
 export const Styles = StyleSheet.create({
-  Root: {},
+  Root: {
+    flex: 1,
+    backgroundColor: "white"
+  },
   Heading: {},
   HeadingTitle: {},
   MainContent: {}
